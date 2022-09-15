@@ -1,0 +1,52 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+logo_bmp                                                                          0x0300     402
+funtion                                                                           0x0492      20
+buffer                                                                            0x04A6    1024
+_seed (stdlib.lib)                                                                0x08A6       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+data                                                                              R4           1
+flag                                                                              R3           1
+temp                                                                              R5,R6        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ADC_init                                                                          0x00143     24
+ADC_read                                                                          0x0015B     24
+ADC_convert                                                                       0x00173     16
+uart_Init                                                                         0x00183     16
+usart_receive_isr                                                                 0x00193     49
+I2c_init                                                                          0x001C4      7
+I2c_start                                                                         0x001CB     32
+I2c_stop                                                                          0x001EB      8
+I2c_write                                                                         0x001F3     17
+write_cmd1                                                                        0x00204      8
+cmd_list                                                                          0x0020C     22
+initDisplay                                                                       0x00222     54
+display                                                                           0x00258     48
+drawpixel                                                                         0x00288     36
+clear                                                                             0x002AC      2
+draw1                                                                             0x002AE     26
+draw2                                                                             0x002C8     29
+draw3                                                                             0x002E5     29
+draw4                                                                             0x00302     60
+draw6                                                                             0x0033E     33
+draw5                                                                             0x0035F     34
+draw7                                                                             0x00381     53
+draw8                                                                             0x003B6     47
+draw9                                                                             0x003E5     28
+draw0                                                                             0x00401     47
+drawBitmap                                                                        0x00430     73
+drawImage                                                                         0x00479     25
+main                                                                              0x00492    116
+memset                                                                            0x00506     16
+itoa                                                                              0x00516     46
